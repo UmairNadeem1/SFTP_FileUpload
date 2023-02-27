@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\umair.nadeem\\Desktop\\Digicel_FTP\\Digicel_FTP\\SFTP_FileUpload.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\umair.nadeem\\Desktop\\Digicel_FTP\\Digicel_FTP\\SFTP_FileUpload.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\umair.nadeem\\Desktop\\Digicel_FTP\\Digicel_FTP\\SFTP_FileUpload.csproj",
+        "projectName": "SFTP_FileUpload",
+        "projectPath": "C:\\Users\\umair.nadeem\\Desktop\\Digicel_FTP\\Digicel_FTP\\SFTP_FileUpload.csproj",
+        "packagesPath": "C:\\Users\\umair.nadeem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umair.nadeem\\Desktop\\Digicel_FTP\\Digicel_FTP\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\umair.nadeem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.32, )"
+            },
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2020.0.2, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
